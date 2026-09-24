@@ -1,11 +1,11 @@
 /* Redes sociales antes del mapa: diseño de franja clara con interior blanco. */
-.social-section{background:#eafaff;padding:22px 20px;margin:54px 0 26px;border-radius:12px;}
+.social-section{background:#F3F0FD;padding:22px 20px;margin:54px 0 26px;border-radius:12px;}
 .social-section-inner{background:#fff;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:24px 32px;border-radius:4px;}
-.social-section h2{font-family:'Poppins',sans-serif;font-weight:800;color:#103750;font-size:clamp(21px,2.6vw,29px);line-height:1.2;margin:0;}
+.social-section h2{font-family:'Poppins',sans-serif;font-weight:800;color:#16141F;font-size:clamp(21px,2.6vw,29px);line-height:1.2;margin:0;}
 .social-links{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap;}
 .social-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 54px;width:54px;height:44px;border-radius:4px;transition:transform .2s ease,filter .2s ease;}
 .social-link:hover{transform:translateY(-3px);filter:brightness(1.12);}
-.social-link:focus-visible{outline:3px solid #0e7150;outline-offset:3px;}
+.social-link:focus-visible{outline:3px solid #5B3FC4;outline-offset:3px;}
 .social-link img{width:25px;height:25px;display:block;filter:brightness(0) invert(1);}
 .social-link.facebook{background:#1877f2;}
 .social-link.instagram{background:#b00063;}
@@ -22,7 +22,7 @@ footer .footer-col h5{margin-bottom:16px;}
 footer .footer-col ul li{margin-bottom:10px;}
 footer .footer-contact li{align-items:center;gap:10px;overflow-wrap:anywhere;}
 footer .footer-contact li svg{width:17px;height:17px;margin-top:0;flex:0 0 17px;}
-footer .footer-contact a{color:#adc0b5;}
+footer .footer-contact a{color:#C9C4DA;}
 footer .footer-contact a:hover{color:#fff;}
 @media(max-width:800px){.social-section-inner{flex-direction:column;text-align:center;padding:26px 20px;}.social-links{justify-content:center;}footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;}}
 @media(max-width:540px){

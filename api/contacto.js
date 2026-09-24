@@ -22,15 +22,15 @@ module.exports = async (req, res) => {
       auth: {user: process.env.SMTP_USER, pass: process.env.SMTP_PASS}
     });
     await transport.sendMail({
-      from: `"DyCenter" <${process.env.SMTP_USER}>`,
+      from: `"DysonRepair" <${process.env.SMTP_USER}>`,
       to: process.env.CONTACT_EMAIL || process.env.SMTP_USER,
       replyTo: email,
-      subject: 'Nueva consulta - DyCenter Servicio Técnico de Aspiradoras Dyson',
+      subject: 'Nueva consulta - DysonRepair Servicio Técnico Dyson Bilbao',
       text: `Nombre: ${nombre}\nModelo: ${modelo || '-'}\nEmail: ${email}\nTeléfono: ${telefono}\n\n${mensaje}`
     });
     return res.status(200).json({ok:true});
   } catch (error) {
-    console.error('Error al enviar consulta de DyCenter', error);
+    console.error('Error al enviar consulta de DysonRepair', error);
     return res.status(500).json({ok:false});
   }
 };

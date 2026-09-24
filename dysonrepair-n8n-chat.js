@@ -39,7 +39,7 @@ if (target && !target.dataset.dysonrepairChatInitialized) {
     showWelcomeScreen: true,
     defaultLanguage: 'es',
     initialMessages: [
-      'Buenas tardes 👋 ¿Qué avería tiene tu aspiradora Dyson? Cuéntanos el modelo y el problema para orientarte.'
+      'Buenas tardes 👋 ¿Qué avería tiene tu equipo Dyson? Cuéntanos el modelo y el problema para orientarte.'
     ],
     i18n: {
       es: {
