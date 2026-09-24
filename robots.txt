@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pamplonaserviciotecnico.com.es/sitemap.xml
